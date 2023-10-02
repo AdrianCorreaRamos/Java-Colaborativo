@@ -20,8 +20,12 @@ public class Main {
         resta resta1 = new resta(num1, num2);
         double result1 = resta1.calculate1();
 
+        Multiplicacion mul1 = new Multiplicacion(num1, num2);
+        double result2 = mul1.calculate3();
+
         System.out.println("La suma es: " + result);
         System.out.println("La resta es: " + result1);
+        System.out.println("la multiplicacion es: "+ result2);
 
     }
 }
