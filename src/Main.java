@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-
         double num1;
         double num2;
 
@@ -18,7 +17,11 @@ public class Main {
         Sum sum = new Sum(num1, num2);
         double result = sum.calculate();
 
+        resta resta1 = new resta(num1, num2);
+        double result1 = resta1.calculate1();
+
         System.out.println("La suma es: " + result);
+        System.out.println("La resta es: " + result1);
 
     }
 }
