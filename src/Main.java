@@ -4,10 +4,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        System.out.println("soy Aurelio");
-        System.out.println("Y yo Adrian");
-
-
         double num1;
         double num2;
 
@@ -20,7 +16,11 @@ public class Main {
         Sum sum = new Sum(num1, num2);
         double result = sum.calculate();
 
+        resta resta1 = new resta(num1, num2);
+        double result = resta.calculate1();
+
         System.out.println("La suma es: " + result);
+        System.out.println("La resta es: " + result);
 
     }
 }
